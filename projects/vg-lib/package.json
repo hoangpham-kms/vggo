@@ -1,10 +1,21 @@
 {
   "name": "vg-lib",
   "version": "0.0.1",
+  "description": "Angular library with 4 seperated components for demonstration",
+  "author": "hoangpham@kms-technology.com",
   "peerDependencies": {
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0",
     "bootstrap": "^4.3.1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmshoangpham/vggo.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmshoangpham/vggo/issues"
+  },
+  "homepage": "https://github.com/kmshoangpham/vggo#readme",  
   "dependencies": {}
 }

@@ -1,6 +1,8 @@
 {
   "name": "vggo",
   "version": "0.0.0",
+  "description": "Angular workspace for demonstration enterprise application approach",
+  "author": "hoangpham@kms-technology.com",  
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,6 +11,15 @@
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmshoangpham/vggo.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmshoangpham/vggo/issues"
+  },
+  "homepage": "https://github.com/kmshoangpham/vggo#readme",  
   "private": true,
   "dependencies": {
     "@angular/animations": "~7.2.0",
