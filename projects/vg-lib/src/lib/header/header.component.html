@@ -1,0 +1,29 @@
+<ul class="nav ml-auto nav-flex-icons">
+    <li class="nav-item avatar">
+      <a class="navbar-brand" href="#">
+        <img src="{{headerModel.logo}}" alt="logo image" height="35">
+      </a>
+    </li>
+  
+    <li *ngFor="let menu of headerModel.menus" class="nav-item">
+      <a class="nav-link" href="#">{{menu}}</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Linkdfg</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled" href="#">Disabled</a>
+    </li>
+  
+    <li class="nav-item avatar dropdown">
+      <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+        <img src="{{headerModel.avatar}}" class="rounded-circle z-depth-0" alt="avatar image" height="35">
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+  </ul>
+  
