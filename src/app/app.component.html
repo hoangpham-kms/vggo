@@ -7,7 +7,9 @@
     <vg-leftsidebar [leftSideBarModel]=vgModel.leftSideBarModel></vg-leftsidebar>
   </nav>
   <article>
-    <vg-login></vg-login>
+    <a routerLink="/login" routerLinkActive="active" class="btn btn-info" role="button">Please click here to Login</a>
+    <router-outlet></router-outlet>
+    <!-- Routed components go here -->
   </article>
 </section>
 
