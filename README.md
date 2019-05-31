@@ -7,6 +7,8 @@ This angular workspace include two projects:
 2. Example angular application project that use published vg-lib above.
 
 ## Run Development server to view example app
++ npm install
++ ng serve
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
