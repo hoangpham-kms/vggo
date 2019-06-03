@@ -1,9 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LoginComponent } from 'vg-lib';
+import { LoginpageComponent } from './loginpage/loginpage.component';
+import { HomepageComponent } from './homepage/homepage.component';
+import { SimplelayoutComponent } from './layout/simplelayout/simplelayout.component';
 
 const appRoutes: Routes = [
-  { path: 'login', component: LoginComponent }
+  { path: '', component: SimplelayoutComponent,
+    children: [ { path: '', component: HomepageComponent } ] 
+  },
+  { path: 'login', component: LoginpageComponent },
+  { path: '**', redirectTo: '' }
 ];
 @NgModule({
   imports: [RouterModule.forRoot(appRoutes)],

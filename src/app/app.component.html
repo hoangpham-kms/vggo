@@ -1,18 +1,2 @@
-<header>
-  <vg-header [headerModel]=vgModel.headerModel></vg-header>
-</header>
-
-<section>
-  <nav>
-    <vg-leftsidebar [leftSideBarModel]=vgModel.leftSideBarModel></vg-leftsidebar>
-  </nav>
-  <article>
-    <a routerLink="/login" routerLinkActive="active" class="btn btn-info" role="button">Please click here to Login</a>
-    <router-outlet></router-outlet>
-    <!-- Routed components go here -->
-  </article>
-</section>
-
-<footer>
-  <vg-footer></vg-footer>
-</footer>
+<router-outlet></router-outlet>
+<!-- Routed components go here -->

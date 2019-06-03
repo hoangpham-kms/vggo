@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { VGMODEL } from './mockVgModel';
 
 @Component({
   selector: 'app-root',
@@ -8,5 +7,4 @@ import { VGMODEL } from './mockVgModel';
 })
 export class AppComponent {
   title = 'vggo';
-  vgModel = VGMODEL;
 }
